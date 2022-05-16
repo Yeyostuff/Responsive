@@ -1,0 +1,57 @@
+/*
+1. Todo lo que tiene que ver con posicionamiento
+2. Todo lo que tiene que ver con el modelo de caja.
+3. Todo lo que tiene que ver con tipografía
+4. Todo lo que tiene que ver con temas visuales
+5. Todo lo que se conoce com miscelaneo u otros.
+*/
+
+:root{
+    /*Colores*/
+    --bitcoin-orange: #f7931a;
+    --soft-ornge: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #f1f8f7;
+    --just-white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+}
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 50px;
+    text-align: center;
+}
